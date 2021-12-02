@@ -28,7 +28,15 @@
   
     &--white {
       background-color: $color-white;
-      color: #777;
+      color:$color-grey;
+  
+      &::after {
+        background-color: $color-white;
+      }
+    }
+    &--green {
+      background-color: $color-primary;
+      color:$color-white;
   
       &::after {
         background-color: $color-white;
